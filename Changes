@@ -1,5 +1,15 @@
 Revision history for Perl extension Tree::MultiNode.
 
+1.0.11 
+  - Convert module to standart treee layout.
+  - Convert to Test::More suite with additional tests
+  - Generat META.yml file from new Build.PL data
+  - RT #5107 - Documentation patch for Tree-MultiNode-1.0.10
+  - RT #1743 - Documentation fix for traverse example to be consistent with code
+  - RT #5435 - New add_child_node sub to merge trees
+  - TODO: Need proper pod documentation for new sub.
+  - TODO: Need tests for the new feature.
+
 1.0.10 Tue May 27 14:06:33 EDT 2003
   KRB: Markus Maier <maier.m@web.de> found a bug in the tree's destructor
     that happens when a reference to a handle outlives the tree object.
